@@ -18,7 +18,7 @@ public class PartnerDto {
     @NotBlank
     @Size(max = 15)
     private String phoneNumber ;
-//Restrições
-    private List<GameModel> gameModel;
+
+    private List<Long> games;
 
 }

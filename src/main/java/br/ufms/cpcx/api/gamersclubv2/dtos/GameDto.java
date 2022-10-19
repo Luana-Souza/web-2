@@ -17,6 +17,4 @@ public class GameDto {
 
     private ConsoleEnum console;
 
-    //restrições
-    private PartnerModel owner;
 }

@@ -1,5 +1,6 @@
 package br.ufms.cpcx.api.gamersclubv2.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -14,7 +15,7 @@ import java.io.Serializable;
 @NoArgsConstructor
 public class GameModel implements Serializable {
     @Id
-    @GeneratedValue (strategy = GenerationType. AUTO)
+    @GeneratedValue (strategy = GenerationType. IDENTITY)
     private long id;
 
     @Column(nullable = false, length = 100)
@@ -25,6 +26,7 @@ public class GameModel implements Serializable {
     private ConsoleEnum console;
 
     @ManyToOne
+    @JsonIgnore
     private PartnerModel owner;
 
 }

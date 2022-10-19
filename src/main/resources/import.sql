@@ -1,0 +1,16 @@
+insert into tb_game (id, console, name, owner_id) values(1,'PS3', 'God Of War', null);
+insert into tb_game (id, console, name, owner_id) values(2,'PS4', 'God Of War 2', null);
+insert into tb_game (id, console, name, owner_id) values(3,'PS4', 'God Of War 3', null);
+insert into tb_game (id, console, name, owner_id) values(4,'PS3', 'God Of War Ragnarok', null);
+insert into tb_game (id, console, name, owner_id) values(5,'PC', 'Call Of Dutty', null);
+insert into tb_game (id, console, name, owner_id) values(6,'PS4', 'A Lenda do Heroi', null);
+insert into tb_game (id, console, name, owner_id) values(7,'PS4', 'Stardew Valley', null);
+insert into tb_game (id, console, name, owner_id) values(8,'PS4', 'Pokemon', null);
+insert into tb_game (id, console, name, owner_id) values(9,'PS4', 'Pokemon Scarlet', null);
+insert into tb_game (id, console, name, owner_id) values(10,'PC', 'Pokemon Violet', null);
+insert into tb_game (id, console, name, owner_id) values(11,'PC', 'Clash Royale', null);
+insert into tb_game (id, console, name, owner_id) values(12,'PC', 'Clash of Clans', null);
+insert into tb_game (id, console, name, owner_id) values(13,'PC', 'Megaman', null);
+insert into tb_game (id, console, name, owner_id) values(14,'PS5', 'Alan Wake', null);
+insert into tb_game (id, console, name, owner_id) values(15,'PS5', 'Need For Speed', null);
+insert into tb_game (id, console, name, owner_id) values(16,'PS5', 'Need For Speed Monsted Wanted', null);
